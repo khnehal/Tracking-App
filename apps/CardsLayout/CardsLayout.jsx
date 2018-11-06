@@ -69,13 +69,13 @@ class CardsLayout extends Component {
                 <div className="col-xs-12 col-md-6 ">
                     <DetailCard
                         title = {'Do you know ?'}
-                        value={source.value}
                         description={'There are 3 untracked shipments.'}
                         buttonText={'Start Tracking'}
                         bgColor={'green'}
                     />
                     <DetailCard
                         title = {'Transporter details'}
+                        description={'Top transporters: VRL Logictics.'}
                         buttonText={'View All'}
                         bgColor={'brown'}
                     />

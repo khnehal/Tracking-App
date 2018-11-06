@@ -34,7 +34,7 @@ class CardContent extends Component {
                             {transporter && <p><b>Transporter id:</b> {transporter}</p>}
                             {driverDetails && <p><br /><b>Driver details:</b><br /> {driverDetails}</p>}
                             {items && <p><b><br />Items:</b><br /> {items}</p>}
-                            {description && <p><b>Check Point:</b> {description}</p>}
+                            {description && <p>{description}</p>}
                         </div>
                         <div className="col-xs-12 col-md-6">
                             {fromAdd && <p><b>From:</b> {fromAdd}</p>}
