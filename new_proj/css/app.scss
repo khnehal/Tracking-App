@@ -1,0 +1,304 @@
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.trackingAppContents {
+    padding-top: 6%;
+}
+
+// Card Layout Styles
+.cardContainer {
+    margin: 10px;
+    -webkit-box-shadow: 3px 3px 20px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 20px -2px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 20px -2px rgba(0,0,0,0.15);
+    border-radius: 10px;
+
+    .cardHeader {
+        border-left: 3px solid;
+        padding-left: 10px;
+    }
+
+    .cardTitle {
+        width: 75%;
+        display: inline-block;
+    }
+
+    .cardValue {
+        width: 20%;
+        display: inline-block;
+
+        span {
+            background-color: rgba(234, 212, 212, 0.3);
+            border-radius: 10px;
+            font-size: 13px;
+            padding: 5px;
+        }
+    }
+
+    .detailSection {
+        padding: 10px;
+    }
+
+    .cardContentDetails {
+        padding: 20px;
+    }
+
+    .card-buttons {
+        float: right;
+        margin: 10px;
+        border: 1px solid;
+    }
+}
+
+// Name Card Layout styles
+.NameCardTiles {
+    padding: 0;
+
+    .cardContainer {
+        border-radius: 4%;
+
+        .nameCardHeader {
+            padding-left: 10px;
+        }
+
+        .detailSection {
+            padding: 10px 10px 0 10px;
+        }
+
+        .cardTitle {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        .nameCardTitle, .nameCardValue {
+            width: 50%;
+            padding-bottom: 5px;
+            display: inline-block;
+            vertical-align: bottom;
+            border-bottom: 1px solid;
+        }
+
+        .nameCardTitle {
+            font-size: 22px;
+        }
+
+        .nameCardValue {
+            text-align: right;
+        }
+
+        .nameCardFooterLeft, .nameCardFooterRight {
+            width: 50%;
+            display: inline-block;
+            font-size: 10px;
+        }
+
+        .nameCardFooterLeft {
+            padding-left: 10px;
+        }
+
+        .nameCardFooterRight {
+            padding-right: 10px;
+            text-align: right;
+        }
+    }
+}
+
+
+// Sidebar styles
+.leftSidebar {
+  height: 100%;
+  width: 80px;
+  position: fixed;
+  text-align: center;
+  z-index: 3;
+  top: 55px;
+  left: 0;
+  background-color: #373bc1;
+  overflow-x: hidden;
+  padding-top: 16px;
+
+  .fa {
+    display: block;
+  }
+}
+
+.leftSidebar a {
+  padding: 6px 8px 10px 12px;
+  text-decoration: none;
+  font-size: 27px;
+  color: #fff;
+  display: block;
+
+  span {
+    font-size: 11px;
+  }
+}
+
+.leftSidebar a:hover {
+  color: #f1f1f1;
+}
+
+// Top Navbar Styles
+.TopHeader {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    background-color: #fff;
+
+    .navbar {
+        height: 50px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .navbar-brand {
+        width: 80px;
+        color: #fff;
+        font-weight: 700;
+        text-align: center;
+        background-color: #692b9d;
+
+        span {
+            font-size: 20px;
+        }
+
+        .titleFirst {
+
+        }
+
+        .titleSecond {
+            color: #692b9d;
+            background-color: #fff;
+        }
+    }
+
+    .navbar-tracking-dropdown {
+        display: inline-block;
+        height: 100%;
+        width: 10%;
+        border-right: 1px solid #f0f0f0;
+        margin-right: 20px;
+
+        .btn {
+            width: 100%;
+            height: 100%;
+
+            .caret {
+                float: right;
+                margin-top: 7px;
+                color: #1300ff;
+            }
+        }
+
+        .dropdown-menu {
+            text-align: center;
+        }
+    }
+
+    .navbar-tracking-search {
+        display: inline-block;
+        width: 40%;
+        height: 100%;
+
+        .fa-search {
+            font-size: 18px;
+            color: #621d96;
+        }
+
+        .form-control {
+            width: 95%;
+            border: none;
+            box-shadow: none;
+        }
+    }
+
+    .navbar-notification {
+        display: inline-block;
+        width: 10%;
+        height: 100%;
+        float: right;
+
+        .fa-bell-o {
+            font-size: 20px;
+            color: #621d96;
+            padding: 11px;
+        }
+    }
+}
+
+// Dropdowns container styles
+.dropdowns-container {
+    .btn-group {
+        .btn {
+            width: 150px;
+            border: 1px solid #d9d3f2;
+            color: #373bc1;
+        }
+
+        .btn.active {
+            background-color: #373bc1;
+            color: #fff;
+        }
+    }
+
+    .search-nav {
+        margin: 15px 0px;
+        border: 1px solid #d9d3f2;
+        border-radius: 5px;
+        padding: 0 10px;
+
+        .fa-search {
+            font-size: 15px;
+        }
+
+        .form-control {
+            width: 95%;
+            border: none;
+            box-shadow: none;
+        }
+    }
+}
+
+
+// Step by step Progress bar styles
+#progress {
+    input[type="button"] {
+        margin-top: 20px;
+    }
+    .node {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        display:inline-block;
+        transition: all 1000ms ease;
+    }
+
+    .activated {
+        box-shadow: 0px 0px 3px 2px rgba(194, 255, 194, 0.8);
+    }
+
+    .divider {
+        height: 40px;
+        width: 2px;
+        margin-left: 4px;
+        transition: all 800ms ease;
+    }
+
+    li p {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+    }
+
+    li {
+        list-style: none;
+        line-height: 1px;
+    }
+
+    .green{ background-color: rgba(92, 184, 92, 1) }
+    .grey { background-color: rgba(201, 201, 201, 1); }
+    .pink { background-color: #d573d4; }
+}

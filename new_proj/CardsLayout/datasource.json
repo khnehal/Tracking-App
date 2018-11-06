@@ -1,0 +1,13 @@
+
+{
+    "value": "10 Cr",
+    "trip_id": "12345",
+    "transporter": "VRL Logistics",
+    "from": "Bangalore",
+    "to": "Mumbai",
+    "driver_details": "Rahul (+91 99999 99999)",
+    "last_known": "Kholapur",
+    "checkpoint": "KH",
+    "items": "TMT Steel bars"
+}
+

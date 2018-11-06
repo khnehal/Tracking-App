@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Total trips",
+        "number": "54",
+        "value": "100 Cr",
+        "positive_value": "+12%",
+        "negative_value": "-10%",
+        "bgColor": "#5cc306"
+    },
+    {
+        "name": "On time",
+        "number": "60",
+        "value": "10 Cr",
+        "positive_value": "+19%",
+        "negative_value": "-1%",
+        "bgColor": "#a2c7ea"
+    },
+    {
+        "name": "Delayed",
+        "number": "90",
+        "value": "189 Cr",
+        "positive_value": "+120%",
+        "negative_value": "-09%",
+        "bgColor": "#c9cbc8"
+    },
+    {
+        "name": "Deviated",
+        "number": "54",
+        "value": "100 Cr",
+        "positive_value": "+2%",
+        "negative_value": "-71%",
+        "bgColor": "#6fbfe8"
+    },
+    {
+        "name": "Missing",
+        "number": "88",
+        "value": "100 Cr",
+        "positive_value": "+1%",
+        "negative_value": "-1%",
+        "bgColor": "red"
+    },
+    {
+        "name": "Tracked",
+        "number": "12",
+        "value": "100 Cr",
+        "positive_value": "+12%",
+        "negative_value": "-10%",
+        "bgColor": "black"
+    }
+]
